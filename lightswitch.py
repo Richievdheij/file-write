@@ -11,6 +11,7 @@ if not os.path.exists('actions.log'):
 
 action_log = open('actions.log', 'a')
 
+
 # Makes the button
 def make_button():
     button = tk.Button(text='Switch light on', bg="white", fg="black", command = switch_light) # Add the button
